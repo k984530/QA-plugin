@@ -14,10 +14,7 @@
       "author": {
         "name": "choiwon"
       },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/k984530/QA-plugin.git"
-      },
+      "source": "../",
       "category": "testing"
     }
   ]
