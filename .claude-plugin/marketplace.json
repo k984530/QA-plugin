@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "qa-plugin-registry",
+  "version": "1.0.0",
+  "description": "Marketplace for QA Plugin",
+  "owner": {
+    "name": "choiwon"
+  },
+  "plugins": [
+    {
+      "name": "qa-plugin",
+      "description": "QA testing plugin with test commands",
+      "version": "0.1.0",
+      "author": {
+        "name": "choiwon"
+      },
+      "source": ".",
+      "category": "testing"
+    }
+  ]
+}
