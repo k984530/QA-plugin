@@ -1,0 +1,10 @@
+{
+  "name": "qa-plugin",
+  "version": "0.1.0",
+  "description": "QA testing plugin with test commands",
+  "author": {
+    "name": "choiwon"
+  },
+  "license": "MIT",
+  "keywords": ["qa", "testing"]
+}
