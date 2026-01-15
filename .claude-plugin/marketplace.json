@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "qa-plugin-registry",
   "version": "1.0.0",
-  "description": "Marketplace for QA Plugin",
+  "description": "QA testing plugin marketplace",
   "owner": {
     "name": "choiwon"
   },
@@ -14,7 +14,7 @@
       "author": {
         "name": "choiwon"
       },
-      "source": "../",
+      "source": "./plugins/qa-plugin",
       "category": "testing"
     }
   ]
