@@ -2,23 +2,35 @@
 
 QA testing plugin with test commands.
 
-## Features
-
-- **Commands**: Slash commands for testing
-
 ## Installation
 
+### Via Marketplace (Recommended)
+
 ```bash
-claude /plugin add /path/to/qa-plugin
+claude /plugin
 ```
 
-Or add to your Claude Code settings.
+Then select **Add Marketplace** and enter:
+
+```
+k984530/QA-plugin
+```
+
+After adding the marketplace, select **Install Plugin** and choose `qa-plugin`.
+
+### Via Direct Path
+
+```bash
+claude --plugin-dir /path/to/QA-plugin/plugins/qa-plugin
+```
 
 ## Usage
 
 ### Commands
 
-- `/test` - Run a test command to verify the plugin is working
+| Command | Description |
+|---------|-------------|
+| `/test` | Output "Hello QA World" |
 
 ## License
 
